@@ -1,5 +1,5 @@
-# Tutorial 8
-## Nabiilah putri Safa - 2206030426
+# Tutorial 8 ִֶָ𓂃 ࣪˖ ִֶָ🐇་༘࿐
+## Nabiilah Putri Safa - 2206030426
 -----------------------------------
 
 a. How many data your publlsher program will send to the message broker in one
@@ -12,11 +12,14 @@ b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 The publisher utilizes the same URL as the one found in the subscriber program because the URL "amqp://guest:guest@localhost:5672" is essentially a standard link used to connect to a message broker using the AMQP (Advanced Message Queuing Protocol). When the same URL is used in both the publisher and subscriber, these two programs will connect to the message broker on the same machine, with identical credentials and port numbers. This ensures that the publisher can publish messages to the same message broker instance where the subscriber is subscribed.
 
 ![Screenshot 2024-04-24 144924](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/15d05df0-c857-4e35-9bbe-2299fe788da8)
+**Running RabbitMQ**
 
 ![Screenshot 2024-04-24 153754](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/c04f260a-6bec-4378-91da-486963efafea)
+**Sending and processing events**
 
 ![Screenshot 2024-04-24 153922](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/63b90f68-06e7-43ff-81a5-991e57448dbe)
-
+**Monitoring chart based on publisher**
 
 The image above depicts a scenario where data in the form of message queues is sent when the publisher is run. The subscriber, which is currently connected to the message queue, will receive this data from the message queue and output it in the terminal according to the code that has been written.
+
 
