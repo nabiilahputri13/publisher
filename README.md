@@ -1,5 +1,5 @@
-#Tutorial 8
-##Nabiilah putri Safa - 2206030426
+# Tutorial 8
+## Nabiilah putri Safa - 2206030426
 -----------------------------------
 
 a. How many data your publlsher program will send to the message broker in one
@@ -16,3 +16,7 @@ The publisher utilizes the same URL as the one found in the subscriber program b
 ![Screenshot 2024-04-24 153754](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/c04f260a-6bec-4378-91da-486963efafea)
 
 ![Screenshot 2024-04-24 153922](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/63b90f68-06e7-43ff-81a5-991e57448dbe)
+
+
+The image above depicts a scenario where data in the form of message queues is sent when the publisher is run. The subscriber, which is currently connected to the message queue, will receive this data from the message queue and output it in the terminal according to the code that has been written.
+
